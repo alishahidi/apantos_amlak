@@ -1,0 +1,35 @@
+.swiper-slide,
+img,
+.img-box {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.img-box i {
+  position: absolute;
+  font-size: 2rem;
+  z-index: 1000;
+  top: 2px;
+  right: 7px;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.4rem;
+  color: #464444;
+}
+
+.swiper-button-next:hover {
+  color: #fff;
+}
+
+.swiper-button-prev:hover {
+  color: #fff;
+}
+
+.swiper-pagination {
+  display: flex;
+  justify-content: center;
+  flex-direction: row-reverse;
+}

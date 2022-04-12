@@ -1,0 +1,132 @@
+@font-face {
+  font-family: Vazir-Variable;
+  src: url("./../fonts/Vazir-Variable.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir-Medium;
+  src: url("./../fonts/Vazir-Medium.woff") format("woff");
+}
+
+* {
+  direction: rtl;
+  text-align: right;
+  font-family: Vazir-Variable, Vazir-Medium;
+  word-wrap: break-word;
+}
+
+body,
+html {
+  overflow-x: hidden;
+  background-color: var(--white);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  border-style: none;
+}
+
+::after,
+::before {
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 15px;
+  --white: #ffffff;
+  --snow-white: #eaeaea;
+  --blue: #0089ff;
+  --dark: #252a34;
+  --green-dark: #3a4750;
+  --dark-old: #3333;
+  --darker: #111111;
+  --muted: #6c757d;
+  --yellow: #f6c90e;
+}
+
+.c-pointer{
+  cursor: pointer;
+}
+
+.is-bg {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-register {
+  background-image: url("../images/register-bg.jpg");
+}
+
+.bg-login {
+  background-image: url("../images/login-bg.jpg");
+}
+
+.bg-code {
+  background-image: url("../images/code-bg.jpg");
+}
+
+.bg-pass {
+  background-image: url("../images/pass-bg.jpg");
+}
+
+.scroll-hide {
+  overflow: auto;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.form-header h3 {
+  color: var(--dark);
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.form-header p {
+  color: var(--green-dark);
+}
+
+.inputfile-box {
+  position: relative;
+}
+
+.inputfile {
+  display: none;
+}
+
+.uploade-input {
+  border: 4px #333 dashed;
+  padding: 16px;
+  height: 150px;
+}
+.file-box {
+  margin-top: 13px;
+  float: left;
+  direction: ltr;
+}
+
+.file-button {
+  float: left;
+}
+
+.captcha-refresh {
+  bottom: 0px;
+  right: 0px;
+  background-color: #fff;
+  border-radius: 50%;
+  padding: 1px 5px;
+  color: #333;
+}
+
+.form-options a{
+  color: var(--green-dark);
+  font-size: .9rem;
+  text-decoration: none;
+}

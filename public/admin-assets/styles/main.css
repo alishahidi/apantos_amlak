@@ -1,0 +1,111 @@
+@font-face {
+  font-family: Vazir-Variable;
+  src: url("./../fonts/Vazir-Variable.woff") format("woff");
+}
+
+@font-face {
+  font-family: Vazir-Medium;
+  src: url("./../fonts/Vazir-Medium.woff") format("woff");
+}
+
+body {
+  background-image: url("./../images/site-bg.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+* {
+  direction: rtl;
+  text-align: right;
+  font-family: Vazir-Variable, Vazir-Medium;
+  word-wrap: break-word;
+}
+
+.bg-blue {
+  background-color: #101820f3;
+  color: #474b4f;
+}
+
+.bg-soft-blue {
+  background-color: rgba(16, 24, 32, 0.89);
+  color: #eeeeeeff;
+}
+
+.c-pointer {
+  cursor: pointer;
+}
+
+.text-success {
+  color: #86c232;
+}
+
+.icon-position-fix {
+  position: relative;
+  top: 0.2rem;
+}
+
+.icon-position-fix-md {
+  position: relative;
+  top: 0.1rem;
+}
+
+.badge-fix {
+  position: relative;
+  bottom: 10px;
+  right: 3px;
+}
+
+.scroll-hide {
+  overflow: auto;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+.scroll-hide::-webkit-scrollbar {
+  display: none;
+}
+
+.car-custom-color {
+  background-color: #222629be;
+  border: 2px solid transparent;
+  border-radius: 3px;
+  transition: all 0.2s;
+}
+
+.gradient {
+  transition: all 0.5s;
+}
+
+.car-custom-color:hover {
+  /* background-color: #222629d5; */
+  border: 2px solid #eae7dcbd;
+  border-radius: 3px;
+}
+
+.inputfile-box {
+  position: relative;
+}
+
+.inputfile {
+  display: none;
+}
+
+.uploade-input {
+  border: 4px #333 dashed;
+  padding: 16px;
+}
+.file-box {
+  margin-top: 13px;
+  float: left;
+  direction: ltr;
+}
+
+.file-button {
+  float: left;
+}
+
+label{
+    margin-bottom: .5rem;
+}
